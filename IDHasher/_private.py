@@ -22,10 +22,10 @@ except NameError:
     StrType = str
 
 #: Returns whether a value is a string.
-is_string = lambda s: isinstance(s, StrType)
+# is_string = lambda s: isinstance(s, StrType)
 
 #: Returns whether a value is an unsigned integer.
-is_uint = lambda n: n == int(n) and n >= 0
+# is_uint = lambda n: n == int(n) and n >= 0
 
 
 def isString(var):
