@@ -30,7 +30,7 @@ class IDHasher:
 
     def __init__(self, salt=SALT, minlen=MIN_LENGTH, alphabet=CHARSET):
         '''
-        Initialises a IDHasher object with salt, minimum length, and alphabet.
+        Initialises the IDHasher object with salt, minimum length, and alphabet.
 
         :param salt: A string influencing the generated hash ids.
         :param minlen: The minimum length for generated hashes
