@@ -1,0 +1,10 @@
+#: Ignore
+
+build
+build/*.*
+tests
+tests/*.*
+dist
+dist/*.*
+IDHasher.egg-info
+IDHasher.egg-info/*.*
