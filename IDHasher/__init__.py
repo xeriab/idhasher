@@ -7,6 +7,7 @@
 
 from __future__ import absolute_import
 from __future__ import print_function
+
 from ._private import *
 
 __version__ = '0.1.0'
@@ -30,7 +31,7 @@ class IDHasher:
 
     def __init__(self, salt=SALT, minlen=MIN_LENGTH, alphabet=CHARSET):
         '''
-        Initialises the IDHasher object with salt, minimum length, and alphabet.
+        Initialises the IDHasher object with salt, minimum length, and alphabet
 
         :param salt: A string influencing the generated hash ids.
         :param minlen: The minimum length for generated hashes
